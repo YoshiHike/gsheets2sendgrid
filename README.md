@@ -24,7 +24,7 @@ A continuación están los links de diferentes guías de inicio para las herrami
 
 ## Descripción de los archivos del proyecto.
 
-### code.js, Es el código para la dynamic template que se crea en Sendgrid.
+### code.js, Es el código javascript para el proyecto de Apps Script.
 ![](https://lh6.googleusercontent.com/vijYXYifAowjURL42xyvZlCfGfiijbi0yVzbIqnNRotHIdkLQcEEjRljnxaOBAv6lvhr1Ea3g-Xwpc8IPGBi-DNdzPUiNdn-sGK_lCJqQKWoc0xr36MTXHDNt8JJZkYxdeWfNyI0)
 
 ### templete.html, Es el código para la dynamic template que se crea en Sendgrid.
