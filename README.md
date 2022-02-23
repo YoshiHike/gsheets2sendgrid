@@ -1,7 +1,8 @@
 # gsheets2sendgrid
 Send mails with google sheets and sengrid API
 This project is licensed under the terms of the MIT License.
- [Github project](https://github.com/YoshiHike/gsheets2sendgrid.git)
+
+[Github project](https://github.com/YoshiHike/gsheets2sendgrid.git)
 
 Este es un ejemplo donde se busca demostrar cómo el desarrollo de herramientas sencillas realizar envío masivo de correos aprovechando dos herramientas:
 
