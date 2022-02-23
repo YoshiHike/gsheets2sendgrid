@@ -5,7 +5,7 @@ This project is licensed under the terms of the MIT License.
 
 [Github project](https://github.com/YoshiHike/gsheets2sendgrid.git)
 
-Este es un ejemplo donde se busca demostrar cómo el desarrollo de herramientas sencillas realizar envío masivo de correos aprovechando dos herramientas:
+Este es un ejemplo donde se busca demostrar cómo el desarrollo de una herramienta sencilla para realizar el envío masivo de correos electronicos aprovechando dos herramientas:
 
 -   **Google Apps Script**, para la automatización de tareas en el paquete de herramientas ofimática basado en la web que ofrece Google; es una plataforma de scripting basado en javascript que nos permite interactuar con los diferentes documentos.  
     
