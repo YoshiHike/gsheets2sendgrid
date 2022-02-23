@@ -1,0 +1,17 @@
+{
+    "text_1": "Title",
+	"text_2": "Simple List",
+	"text_3": "JSON List",
+    "list_1": ["One","Two", "Three","Four","Five"],
+    "list_2": [{
+        "name": "PRODUCT 1",
+        "quanty": "1",
+        "total": "1",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a2/TT-UI-Circle-Red.png"
+    },{
+        "name": "PRODUCT 2",
+        "quanty": "2",
+        "total": "2",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/70/TT-UI-Circle-Green.png"
+    }]
+}
