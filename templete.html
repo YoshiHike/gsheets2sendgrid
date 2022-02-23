@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      body {
+        text-align: center;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>{{text_1}}</h1><br><br>
+      <h3>{{text_2}}</h3><br>
+      {{#each list_1}}
+      <ul >
+        <li>{{this}}</li>
+      </ul>
+      {{/each}}
+      <br><br><br><h3>{{text_3}}</h3><br><br>
+      
+      <table >
+        <tr>
+          <th>Picture</th>
+          <th>Product Name</th>
+          <th>Quanty</th>
+          <th>Total</th>
+        </tr>
+        {{#each list_2}}
+        <tr>
+          <td class="mobile-hide-img">
+            <img width="110" height="92" src="{{this.picture}}">
+          </td>
+          <td class="product">
+            <span>{{this.name}}</span>
+          </td>
+          <td>
+            {{this.quanty}}
+          </td>
+          <td>
+            ${{this.total}}
+          </td>
+        </tr>{{/each}}
+      </table>
+      
+    </div>
+  </body>
+</html>
