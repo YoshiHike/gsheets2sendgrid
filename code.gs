@@ -18,7 +18,6 @@ function sendgrid(){
 
   myData.slice(2).forEach(row => {
     let mailTo = row[0];
-    let fullName = row[1] + ' ' + row[2];
     let myVars = {};
 
     row.forEach((cell, index) => {
@@ -70,4 +69,3 @@ function sendgrid(){
   });
   SpreadsheetApp.getUi().alert("Finalizo el envio de emails.");
 }
-
